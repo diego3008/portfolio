@@ -13,7 +13,7 @@ export const Navbar = () => {
     return (
         <nav className="flex justify-between items-center w-full h-20 bg-black">
 			<div>
-				<h1 className="font-medium text-2xl ml-2">Diego Rubalcava</h1>
+				<h1 className="font-medium text-2xl ml-4">Diego Rubalcava</h1>
 			</div>
 
 			<ul className="flex">
