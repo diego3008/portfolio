@@ -17,7 +17,7 @@ export const Header = () => {
             I&rsquo;m a Software Engineering Student
           </h2>
           <p className="animate__animated animate__fadeInUp text-gray-500 py-4 max-w-md animate">
-            I&rsquo;ve been studying a Software Engineering bachellor since 2019.
+            I&rsquo;ve been studying a Software Engineering bachelor since 2019.
             Currently, I am trying to learn new technologies and i want to improve my
             skills for solving Computer Science problems. I love to work on
             web applications using frameworks like Ruby on Rails and Next JS.
