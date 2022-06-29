@@ -1,10 +1,12 @@
 import react from '../public/react.png'
-import javascript from "../public/Documentacion.png";
-import reactimg from "../public/react.png";
-import nextimg from "../public/nextjs.png";
-import tw from "../public/tailwind.png";
-import rails from "../public/rails.png"
-import Node from "../public/node.png"
+import javascript from '../public/Documentacion.png';
+import reactimg from '../public/react.png';
+import nextimg from '../public/nextjs.png';
+import tw from '../public/tailwind.png';
+import rails from '../public/rails.png';
+import Node from '../public/node.png';
+import Image from 'next/image';
+
 export const TechStack = () => {
 
     const techs = [
@@ -27,7 +29,7 @@ export const TechStack = () => {
               <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
                 Experience
               </p>
-              <p className="py-6">These are the technologies I've worked with</p>
+              <p className="py-6">These are the technologies I have worked with</p>
             </div>
     
             <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
@@ -36,7 +38,7 @@ export const TechStack = () => {
                   key={id}
                   className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
                 >
-                  <img src={src.src} alt="" className="w-20 mx-auto animate__animated animate__fadeIn" />
+                  <Image src={src.src} alt="" className="w-20 mx-auto animate__animated animate__fadeIn" width="80px" height="100vh"/>
                   <p className="mt-4">{title}</p>
                 </div>
               ))}
