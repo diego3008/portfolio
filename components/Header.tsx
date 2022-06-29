@@ -14,13 +14,13 @@ export const Header = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="animate__animated animate__fadeInLeft text-4xl sm:text-7xl font-bold text-white">
-            I am Software Engineering Student
+            I &rsquo;m a Software Engineering Student
           </h2>
           <p className="animate__animated animate__fadeInUp text-gray-500 py-4 max-w-md animate">
-            I have been studying a Software Engineering bachellor since 2019.
-            Currently, I am trying to learn new technologies and improve my
+            I &rsquo;ve been studying a Software Engineering bachellor since 2019.
+            Currently, I am trying to learn new technologies and i want to improve my
             skills for solving Computer Science problems. I love to work on
-            web applications using frameworks like Ruby on Rails and Next jS
+            web applications using frameworks like Ruby on Rails and Next JS.
           </p>
 
         </div>
