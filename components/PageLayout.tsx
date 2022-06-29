@@ -13,7 +13,7 @@ export const PageLayout = ({ children, title }: Props): ReactElement => {
 				<title>{title}</title>
 				<meta
 					name="description"
-					content=""
+					content="This is where you can know me better "
 				/>
 				<link rel="icon" href="favicon.ico" />
 			</Head>
