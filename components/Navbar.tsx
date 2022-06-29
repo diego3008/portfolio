@@ -1,36 +1,33 @@
-import Link from 'next/link'
-import { useRouter } from 'next/router'
 import styles from './Logo.module.css';
 import { Fragment } from 'react';
 import { Button } from '@nextui-org/react';
+import Link from 'next/link';
 
 export const Navbar = () => {
 
     const links = [
-        {name: 'Contact', to: '/contact', id: 1},
-        {name: 'Gallery', to: '/gallery', id: 2},
-        {name: 'About', to: '/about', id: 3}
+        {name: 'Github', to: 'https://github.com/diego3008', id: 1},
+        {name: 'Linkedin', to: 'https://www.linkedin.com/in/diego-rubalcava/', id: 2}
     ]
 
     return (
-        <nav className="px-3 sm:px-4 py-2.5">
-			<div className="container flex justify-center items-center mx-auto">
-				
-				<div className="hidden sm:flex">
-					{links.map(({ name, to, id }) => (
-						<Fragment key={id}>
-							<Link href={to} passHref>
-								<ul className="flex flex-col mt-4 xl:text-[1rem] md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
-									<li className="block py-2 pr-4 pl-3 hover:text-gray-400 cursor-pointer">
-										{name}
-									</li>
-								</ul>
-							</Link>
-						</Fragment>
-					))}
-				</div>
-				
+        <nav className="flex justify-between items-center w-full h-20 bg-black">
+			<div>
+				<h1 className="font-medium text-2xl ml-2">Diego Rubalcava</h1>
 			</div>
+
+			<ul className="flex">
+				{
+					links.map(({name, to, id}) => (
+						<li key={id} className="px-4 cursor-pointer capitalize font-medium hover:text-gray-500 hover:scale-105 duration-200">
+							<Link href={to} passHref>
+								{name}
+							</Link>
+						</li>
+					))
+				}
+			</ul>
+
 		</nav>
         
     )
