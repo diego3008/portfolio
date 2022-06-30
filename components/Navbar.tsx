@@ -11,11 +11,8 @@ export const Navbar = () => {
     ]
 
     return (
-        <nav className="flex justify-between mb-4 items-center w-full h-20 bg-black">
-			<div>
-				<h1 className="font-medium text-2xl ml-4">Diego Rubalcava</h1>
-			</div>
-
+        <nav className="flex justify-center mb-4 items-center w-full h-20 bg-black">
+			
 			<ul className="flex">
 				{
 					links.map(({name, to, id}) => (
