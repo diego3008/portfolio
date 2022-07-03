@@ -30,8 +30,8 @@ export const Header = () => {
             src={yo}
             alt="my profile"
             className="rounded-2xl mx-auto w-2/3 md:w-full animate__animated animate__fadeIn animate__delay-1s"
-            width="700px"
-            height="1000px"
+            width="900px"
+            height="1300px"
           />
         </div>
       </div>
